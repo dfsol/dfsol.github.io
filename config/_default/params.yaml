@@ -1,0 +1,21 @@
+google_analytics_id: ""
+
+logo:
+  mobile: "images/logo-mobile.svg"
+  mobile_height: "36px"
+  mobile_width: "36px"
+  desktop: "images/logo.svg"
+  desktop_height: "29px"
+  desktop_width: "217px"
+  alt: "DFSol.pro"
+
+homepage_meta_tags:
+  meta_description: "IT Consulting & Software development."
+  meta_og_title: "Digital Frontier Solutions"
+  meta_og_type: "website"
+  meta_og_url: "https://dfsol.pro"
+  # meta_og_image: "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+  meta_og_description: "IT Consulting & Software development."
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@dfsol_pro"
+  meta_twitter_creator: "@dfsol_pro"

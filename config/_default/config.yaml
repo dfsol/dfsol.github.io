@@ -1,0 +1,49 @@
+baseURL: "https://dfsol.pro"
+title: "Digital Frontier Solutions"
+
+# # post pagination
+# paginate: "6"
+
+# # post excerpt
+# summaryLength: "15"
+
+languageCode: 'en-us'
+# disable language
+disableLanguages: []
+DefaultContentLanguage: "en"
+enableMissingTranslationPlaceholders: true
+
+markup:
+  goldmark:
+    # extensions:
+    #   definitionList: true
+    #   footnote: true
+    #   linkify: true
+    #   linkifyProtocol: https
+    #   strikethrough: true
+    #   table: true
+    #   taskList: true
+    #   typographer: true
+    # parser:
+    #   attribute:
+    #     block: false
+    #     title: true
+    #   autoHeadingID: true
+    #   autoHeadingIDType: github
+    renderer:
+      # hardWraps: false
+      unsafe: true
+      # xhtml: false
+
+ignoreErrors: 
+- "error-missing-instagram-accesstoken"
+
+
+# module:
+#   hugoVersion:
+#     extended: true
+#     min: "0.92.0"
+
+permalinks:
+  post: "/:year/:month/:day/:slug/"
+  pages: "/:filename/"
